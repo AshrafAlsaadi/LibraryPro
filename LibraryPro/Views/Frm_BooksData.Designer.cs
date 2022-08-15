@@ -37,11 +37,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(342, 342);
+            this.simpleButton1.Location = new System.Drawing.Point(341, 384);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(127, 34);
             this.simpleButton1.TabIndex = 0;
@@ -111,11 +113,29 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "عددالصفحات";
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(308, 335);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(195, 27);
+            this.textBox5.TabIndex = 9;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(541, 343);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 19);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "بلدالنشر";
+            // 
             // Frm_BooksData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label3);
@@ -143,5 +163,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
     }
 }
