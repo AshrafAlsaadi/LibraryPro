@@ -1,0 +1,9 @@
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\LibraryPro.exe.config
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\LibraryPro.exe
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\LibraryPro.pdb
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.csprojAssemblyReference.cache
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.Properties.Resources.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.csproj.GenerateResource.cache
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.csproj.CoreCompileInputs.cache
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.exe
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.pdb
