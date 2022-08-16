@@ -16,7 +16,7 @@ namespace LibraryPro
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Views.Frm_Main());
+            Application.Run(new Views.Forms.Frm_Main());
         }
     }
 }

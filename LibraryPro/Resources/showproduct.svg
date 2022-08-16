@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1">
+  <g>
+    <g>
+      <path d="M10,2v2h20V2H10z M10,8h20V6H10V8z M10,14h20v-2H10V14z M10,18h20v-2H10V18z M10,24h20v-2H10V24z M10,28h20    v-2H10V28z" fill="#727272" class="Black" />
+    </g>
+  </g>
+  <g>
+    <circle cx="5" cy="5" r="3" fill="#1177D7" class="Blue" />
+    <circle cx="5" cy="15" r="3" fill="#1177D7" class="Blue" />
+    <circle cx="5" cy="25" r="3" fill="#1177D7" class="Blue" />
+  </g>
+</svg>
