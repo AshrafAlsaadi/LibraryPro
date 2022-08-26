@@ -1,4 +1,4 @@
-﻿namespace LibraryPro.Views.Forms
+﻿namespace Library.Views.Forms
 {
     partial class Frm_BookCategory
     {
@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_BookCategory));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnFirst = new DevExpress.XtraEditors.SimpleButton();
-            this.btnPrev = new DevExpress.XtraEditors.SimpleButton();
-            this.btnNext = new DevExpress.XtraEditors.SimpleButton();
             this.btnLast = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNext = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPrev = new DevExpress.XtraEditors.SimpleButton();
+            this.btnFirst = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
-            this.btnDeleteAll = new DevExpress.XtraEditors.SimpleButton();
-            this.btnNew = new DevExpress.XtraEditors.SimpleButton();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNew = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDeleteAll = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.Dgv = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -66,22 +66,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بيانات التصنيفات";
             // 
-            // label1
+            // txtName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(806, 74);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 43);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "رقم التصنيف";
-            // 
-            // txtId
-            // 
-            this.txtId.Location = new System.Drawing.Point(582, 71);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(218, 50);
-            this.txtId.TabIndex = 1;
-            this.txtId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtName.Location = new System.Drawing.Point(18, 71);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(328, 50);
+            this.txtName.TabIndex = 3;
+            this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label2
             // 
@@ -92,13 +83,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "اسم التصنيف";
             // 
-            // txtName
+            // txtId
             // 
-            this.txtName.Location = new System.Drawing.Point(18, 71);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(328, 50);
-            this.txtName.TabIndex = 3;
-            this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtId.Location = new System.Drawing.Point(582, 71);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(218, 50);
+            this.txtId.TabIndex = 1;
+            this.txtId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(806, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 43);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "رقم التصنيف";
             // 
             // groupBox2
             // 
@@ -114,45 +114,45 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "اسهم التنقل";
             // 
-            // btnFirst
+            // btnLast
             // 
-            this.btnFirst.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnFirst.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnFirst.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.btnFirst.Location = new System.Drawing.Point(234, 84);
-            this.btnFirst.Name = "btnFirst";
-            this.btnFirst.Size = new System.Drawing.Size(112, 34);
-            this.btnFirst.TabIndex = 0;
-            // 
-            // btnPrev
-            // 
-            this.btnPrev.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnPrev.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.btnPrev.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.btnPrev.Location = new System.Drawing.Point(377, 84);
-            this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(112, 34);
-            this.btnPrev.TabIndex = 1;
+            this.btnLast.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnLast.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLast.ImageOptions.Image")));
+            this.btnLast.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnLast.Location = new System.Drawing.Point(672, 84);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(112, 34);
+            this.btnLast.TabIndex = 3;
             // 
             // btnNext
             // 
             this.btnNext.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnNext.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btnNext.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNext.ImageOptions.Image")));
             this.btnNext.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.btnNext.Location = new System.Drawing.Point(523, 84);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(112, 34);
             this.btnNext.TabIndex = 2;
             // 
-            // btnLast
+            // btnPrev
             // 
-            this.btnLast.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnLast.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.btnLast.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.btnLast.Location = new System.Drawing.Point(672, 84);
-            this.btnLast.Name = "btnLast";
-            this.btnLast.Size = new System.Drawing.Size(112, 34);
-            this.btnLast.TabIndex = 3;
+            this.btnPrev.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnPrev.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnPrev.ImageOptions.Image")));
+            this.btnPrev.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPrev.Location = new System.Drawing.Point(377, 84);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(112, 34);
+            this.btnPrev.TabIndex = 1;
+            // 
+            // btnFirst
+            // 
+            this.btnFirst.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnFirst.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnFirst.ImageOptions.Image")));
+            this.btnFirst.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnFirst.Location = new System.Drawing.Point(234, 84);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(112, 34);
+            this.btnFirst.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -169,55 +169,56 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ازرار العمليات";
             // 
-            // btnSave
+            // btnAdd
             // 
-            this.btnSave.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton5.ImageOptions.Image")));
-            this.btnSave.Location = new System.Drawing.Point(419, 72);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(143, 52);
-            this.btnSave.TabIndex = 0;
-            this.btnSave.Text = "حفظ";
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.ImageOptions.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(258, 72);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(143, 52);
-            this.btnDelete.TabIndex = 1;
-            this.btnDelete.Text = "مسح";
-            // 
-            // btnDeleteAll
-            // 
-            this.btnDeleteAll.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnDeleteAll.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton7.ImageOptions.Image")));
-            this.btnDeleteAll.Location = new System.Drawing.Point(97, 72);
-            this.btnDeleteAll.Name = "btnDeleteAll";
-            this.btnDeleteAll.Size = new System.Drawing.Size(143, 52);
-            this.btnDeleteAll.TabIndex = 2;
-            this.btnDeleteAll.Text = "مسح الكل";
+            this.btnAdd.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.ImageOptions.Image")));
+            this.btnAdd.Location = new System.Drawing.Point(726, 72);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(143, 52);
+            this.btnAdd.TabIndex = 4;
+            this.btnAdd.Text = "اضافة";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnNew
             // 
             this.btnNew.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnNew.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton8.ImageOptions.Image")));
+            this.btnNew.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.ImageOptions.Image")));
             this.btnNew.Location = new System.Drawing.Point(568, 72);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(143, 52);
             this.btnNew.TabIndex = 3;
             this.btnNew.Text = "جديد";
             // 
-            // btnAdd
+            // btnDeleteAll
             // 
-            this.btnAdd.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.btnAdd.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton9.ImageOptions.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(726, 72);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(143, 52);
-            this.btnAdd.TabIndex = 4;
-            this.btnAdd.Text = "اضافة";
+            this.btnDeleteAll.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnDeleteAll.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteAll.ImageOptions.Image")));
+            this.btnDeleteAll.Location = new System.Drawing.Point(97, 72);
+            this.btnDeleteAll.Name = "btnDeleteAll";
+            this.btnDeleteAll.Size = new System.Drawing.Size(143, 52);
+            this.btnDeleteAll.TabIndex = 2;
+            this.btnDeleteAll.Text = "مسح الكل";
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
+            this.btnDelete.Location = new System.Drawing.Point(258, 72);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(143, 52);
+            this.btnDelete.TabIndex = 1;
+            this.btnDelete.Text = "مسح";
+            // 
+            // btnSave
+            // 
+            this.btnSave.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
+            this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
+            this.btnSave.Location = new System.Drawing.Point(419, 72);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(143, 52);
+            this.btnSave.TabIndex = 0;
+            this.btnSave.Text = "حفظ";
             // 
             // Dgv
             // 
@@ -246,7 +247,7 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "تصنيفات الكتب";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Frm_BookCategory_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

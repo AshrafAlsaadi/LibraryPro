@@ -49,6 +49,12 @@ C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\de\DevExpress.Pdf.v1
 C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
 C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
 C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
-C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.Views.Forms.Frm_Main.resources
 C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.exe.licenses
 C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\LibraryPro.csproj.CopyComplete
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\bin\Debug\DevExpress.BonusSkins.v18.1.dll
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_Authors.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_BookCategory.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_BookPlace.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_Country.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_DarNasher.resources
+C:\Users\ashra\source\repos\LibraryPro\LibraryPro\obj\Debug\Library.Views.Forms.Frm_Main.resources

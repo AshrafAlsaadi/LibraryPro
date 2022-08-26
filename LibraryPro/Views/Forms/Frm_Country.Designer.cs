@@ -1,6 +1,6 @@
 ﻿namespace Library.Views.Forms
 {
-    partial class Frm_BookPlace
+    partial class Frm_Country
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_BookPlace));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Country));
+            this.Dgv = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
             this.btnNew = new DevExpress.XtraEditors.SimpleButton();
@@ -45,18 +46,20 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Dgv = new System.Windows.Forms.DataGridView();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dgv)).BeginInit();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // Dgv
+            // 
+            this.Dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgv.Location = new System.Drawing.Point(1, 507);
+            this.Dgv.Name = "Dgv";
+            this.Dgv.RowTemplate.Height = 29;
+            this.Dgv.Size = new System.Drawing.Size(941, 233);
+            this.Dgv.TabIndex = 7;
             // 
             // groupBox3
             // 
@@ -66,10 +69,10 @@
             this.groupBox3.Controls.Add(this.btnDelete);
             this.groupBox3.Controls.Add(this.btnSave);
             this.groupBox3.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox3.Location = new System.Drawing.Point(3, 375);
+            this.groupBox3.Location = new System.Drawing.Point(1, 342);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(941, 159);
-            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ازرار العمليات";
             // 
@@ -130,10 +133,10 @@
             this.groupBox2.Controls.Add(this.btnPrev);
             this.groupBox2.Controls.Add(this.btnFirst);
             this.groupBox2.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox2.Location = new System.Drawing.Point(0, 156);
+            this.groupBox2.Location = new System.Drawing.Point(1, 177);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(941, 159);
-            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "اسهم التنقل";
             // 
@@ -180,17 +183,16 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtName);
-            this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox1.Location = new System.Drawing.Point(3, 12);
+            this.groupBox1.Location = new System.Drawing.Point(1, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(941, 159);
-            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "بيانات المكان";
+            this.groupBox1.Text = "بيانات الدولة";
             // 
             // txtName
             // 
@@ -205,9 +207,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(352, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 43);
+            this.label2.Size = new System.Drawing.Size(98, 43);
             this.label2.TabIndex = 2;
-            this.label2.Text = "اسم المكان";
+            this.label2.Text = "اسم الدولة";
             // 
             // txtId
             // 
@@ -222,103 +224,40 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(806, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 43);
+            this.label1.Size = new System.Drawing.Size(95, 43);
             this.label1.TabIndex = 0;
-            this.label1.Text = "رقم المكان";
+            this.label1.Text = "رقم الدولة";
             // 
-            // Dgv
-            // 
-            this.Dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgv.Location = new System.Drawing.Point(3, 550);
-            this.Dgv.Name = "Dgv";
-            this.Dgv.RowTemplate.Height = 29;
-            this.Dgv.Size = new System.Drawing.Size(941, 233);
-            this.Dgv.TabIndex = 6;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.simpleButton1);
-            this.groupBox4.Controls.Add(this.simpleButton2);
-            this.groupBox4.Controls.Add(this.simpleButton3);
-            this.groupBox4.Controls.Add(this.simpleButton4);
-            this.groupBox4.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox4.Location = new System.Drawing.Point(3, 198);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(941, 159);
-            this.groupBox4.TabIndex = 7;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "اسهم التنقل";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton1.Location = new System.Drawing.Point(672, 84);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(112, 34);
-            this.simpleButton1.TabIndex = 3;
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton2.Location = new System.Drawing.Point(523, 84);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(112, 34);
-            this.simpleButton2.TabIndex = 2;
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton3.Location = new System.Drawing.Point(377, 84);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(112, 34);
-            this.simpleButton3.TabIndex = 1;
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
-            this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.simpleButton4.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton4.Location = new System.Drawing.Point(234, 84);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(112, 34);
-            this.simpleButton4.TabIndex = 0;
-            // 
-            // Frm_BookPlace
+            // Frm_Country
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(953, 804);
-            this.Controls.Add(this.groupBox4);
+            this.ClientSize = new System.Drawing.Size(947, 750);
             this.Controls.Add(this.Dgv);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.MaximizeBox = false;
-            this.Name = "Frm_BookPlace";
+            this.Name = "Frm_Country";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "مكان الكتب";
+            this.Text = "دول النشر";
+            ((System.ComponentModel.ISupportInitialize)(this.Dgv)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dgv)).EndInit();
-            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.DataGridView Dgv;
         private System.Windows.Forms.GroupBox groupBox3;
         private DevExpress.XtraEditors.SimpleButton btnAdd;
         private DevExpress.XtraEditors.SimpleButton btnNew;
@@ -335,11 +274,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView Dgv;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
     }
 }

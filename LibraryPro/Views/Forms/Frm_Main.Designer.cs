@@ -1,4 +1,4 @@
-﻿namespace LibraryPro.Views.Forms
+﻿namespace Library.Views.Forms
 {
     partial class Frm_Main
     {
@@ -58,9 +58,8 @@
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbon
@@ -88,7 +87,7 @@
             this.ribbonPage1,
             this.ribbonPage2,
             this.لاستعارات});
-            this.ribbon.Size = new System.Drawing.Size(1388, 206);
+            this.ribbon.Size = new System.Drawing.Size(1386, 236);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // barButtonItem1
@@ -119,6 +118,7 @@
             this.barButtonItem4.Id = 4;
             this.barButtonItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem4.ImageOptions.SvgImage")));
             this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barButtonItem5
             // 
@@ -133,8 +133,10 @@
             this.barButtonItem6.Caption = "دور النشر";
             this.barButtonItem6.Id = 6;
             this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
-            this.barButtonItem6.ImageOptions.SvgImage = global::LibraryPro.Properties.Resources.customerquicklocations;
+           
+            this.barButtonItem6.ImageOptions.SvgImage = global::Library.Properties.Resources.customerquicklocations;
             this.barButtonItem6.Name = "barButtonItem6";
+            this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
             // barButtonItem7
             // 
@@ -143,6 +145,7 @@
             this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
             this.barButtonItem7.Name = "barButtonItem7";
             this.barButtonItem7.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -173,7 +176,20 @@
             this.barButtonItem11.Id = 11;
             this.barButtonItem11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.Image")));
             this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
+            this.barButtonItem11.ItemAppearance.Hovered.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.barButtonItem11.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Hovered.Options.UseTextOptions = true;
+            this.barButtonItem11.ItemAppearance.Hovered.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.barButtonItem11.ItemAppearance.Normal.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.barButtonItem11.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Normal.Options.UseTextOptions = true;
+            this.barButtonItem11.ItemAppearance.Normal.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
+            this.barButtonItem11.ItemAppearance.Pressed.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.barButtonItem11.ItemAppearance.Pressed.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Pressed.Options.UseTextOptions = true;
+            this.barButtonItem11.ItemAppearance.Pressed.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.barButtonItem11.Name = "barButtonItem11";
+            this.barButtonItem11.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem12
             // 
@@ -181,6 +197,8 @@
             this.barButtonItem12.Id = 12;
             this.barButtonItem12.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.Image")));
             this.barButtonItem12.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
+            this.barButtonItem12.ItemAppearance.Hovered.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.barButtonItem12.ItemAppearance.Hovered.Options.UseFont = true;
             this.barButtonItem12.Name = "barButtonItem12";
             // 
             // barButtonItem13
@@ -193,6 +211,8 @@
             // 
             // ribbonPage1
             // 
+            this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.ribbonPage1.Appearance.Options.UseFont = true;
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
             this.ribbonPageGroup2,
@@ -239,6 +259,8 @@
             // 
             // ribbonPage2
             // 
+            this.ribbonPage2.Appearance.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.ribbonPage2.Appearance.Options.UseFont = true;
             this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup6,
             this.ribbonPageGroup7});
@@ -261,6 +283,8 @@
             // 
             // لاستعارات
             // 
+            this.لاستعارات.Appearance.Font = new System.Drawing.Font("Traditional Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.لاستعارات.Appearance.Options.UseFont = true;
             this.لاستعارات.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup8,
             this.ribbonPageGroup9,
@@ -292,16 +316,21 @@
             // ribbonStatusBar
             // 
             this.ribbonStatusBar.ItemLinks.Add(this.barButtonItem2);
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 618);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 625);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1388, 41);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1386, 34);
+            // 
+            // defaultLookAndFeel1
+            // 
+            this.defaultLookAndFeel1.EnableBonusSkins = true;
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Office 2007 Green";
             // 
             // Frm_Main
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(1388, 659);
+            this.ClientSize = new System.Drawing.Size(1386, 659);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
@@ -314,7 +343,6 @@
             this.Text = "الشاشة الرئيسية";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -326,7 +354,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
-        private System.Windows.Forms.BindingSource bindingSource1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
@@ -351,5 +378,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup8;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
     }
 }

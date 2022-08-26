@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
 
-namespace LibraryPro.Views.Forms
+namespace Library.Views.Forms
 {
     public partial class Frm_Main : DevExpress.XtraBars.Ribbon.RibbonForm
     {
@@ -27,6 +27,24 @@ namespace LibraryPro.Views.Forms
         private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
         {
             Frm_BookPlace frm = new Frm_BookPlace();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_DarNasher frm = new Frm_DarNasher();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_Country frm = new Frm_Country();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_Authors frm = new Frm_Authors();
             frm.ShowDialog();
         }
     }

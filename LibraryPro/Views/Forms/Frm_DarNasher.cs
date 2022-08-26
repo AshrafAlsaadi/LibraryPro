@@ -11,11 +11,12 @@ using DevExpress.XtraEditors;
 
 namespace Library.Views.Forms
 {
-    public partial class Frm_BookPlace : DevExpress.XtraEditors.XtraForm
+    public partial class Frm_DarNasher : DevExpress.XtraEditors.XtraForm
     {
-        public Frm_BookPlace()
+        public Frm_DarNasher()
         {
             InitializeComponent();
         }
+
     }
 }
